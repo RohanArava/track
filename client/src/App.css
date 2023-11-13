@@ -1,0 +1,94 @@
+.App{
+  width: 100%;
+}
+
+.sidebyside{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.products{
+  margin:1em 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* width: 15em; */
+}
+
+.products::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+.products::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0.25em;
+}
+ 
+.products::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  outline: 1px solid #222222;
+  border-radius: 0.25em;
+}
+
+.statuses{
+  margin: 1em 0;
+  overflow-y: scroll;
+  width: fit-content;
+}
+
+.statuses::-webkit-scrollbar {
+  width: 0.5em;
+  border-radius: 0.25em;
+}
+ 
+.statuses::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.statuses::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  outline: 1px solid #222222;
+  border-radius: 0.25em;
+}
+
+.orders{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.orderStatus{
+  margin:1em 0;
+}
+
+.ordersAdmin{
+  display: grid;
+  grid-template-rows: 60% 40%;
+  height: 95vh;
+}
+
+.ordersAdminInner{
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.statusChange{
+  margin: auto;
+  height: 100%;
+}
+
+.ordersAdminInner::-webkit-scrollbar {
+  width: 0.5em;
+  border-radius: 0.25em;
+}
+ 
+.ordersAdminInner::-webkit-scrollbar-track {
+  border-radius: 0.25em;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.ordersAdminInner::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  outline: 1px solid #222222;
+  border-radius: 0.25em;
+}
