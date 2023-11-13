@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# A supply chain management system using smart contracts to track the origin and movement of goods
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+This project creates a dApp to track the movement of orders of various users
+
+To run locally:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npc hadhat node
+npx hardhat run --network localhost scripts/deploy.js
+cd client
+npm run dev
 ```
