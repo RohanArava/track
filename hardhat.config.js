@@ -6,7 +6,7 @@ const SEPOLIA_URL = process.env.SEPOLIA_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 module.exports = {
   solidity: {
-    version: "0.8.19", // any version you want
+    version: "0.8.19",
     settings: {
       optimizer: {
         enabled: true,
